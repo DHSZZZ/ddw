@@ -1,0 +1,669 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0% 0% 0% 2%;
+    padding: 0%;
+}
+
+.top {
+    width: 100%;
+    height: 100%;
+}
+
+.topImage {
+    height: 31%;
+    border: 0px solid #000;
+    overflow: hidden;
+}
+
+.user {
+    height: 30px;
+    border: 1px solid #000;
+    border-width: 1px 1px 1px 1px;
+    font-family: '宋体';
+    font-size: 13px;
+    line-height: 32px;
+    color: #666;
+}
+
+.user .muDiDi img,
+ul li img {
+    position: relative;
+    top: 3px;
+    margin: 0px 6px 0px 0px;
+    line-height: 30px;
+}
+
+ul li .tuBiao {
+    vertical-align: top;
+}
+
+.muDiDi,
+.user ul,
+.user ul li {
+    height: 30px;
+    float: left;
+    border: 0px solid #000;
+}
+
+.muDiDi {
+    width: 363px;
+    margin: 0px 0px 0px 10px;
+}
+
+.user ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.user ul li {
+    list-style-type: none;
+    padding: 0px 9px 0px 0px;
+}
+
+.user>ul>li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.user>ul>li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.center {
+    height: 114px;
+    overflow: hidden;
+}
+
+.center,
+.center>div>img,
+#zhi,
+.souSuo,
+.search,
+.gouWuChe,
+.gouWuChe>img,
+.gouWuChe>div {
+    margin: 12px 0px 0px 0px;
+    padding: 0px;
+    border: 0px solid #000;
+}
+
+.center>div>img,
+.souSuo,
+#zhi,
+.search,
+.gouWuChe,
+img[src="TuPian/gouwuche3.png"],
+img[src="TuPian/gouwuche2.png"],
+.gouWuChe>div {
+    float: left;
+}
+
+#zhi,
+.search {
+    border: 0px solid #000;
+    text-indent: 10px;
+}
+
+#zhi {
+    width: 516px;
+    height: 36px;
+    border: 2px rgb(255, 40, 50) solid;
+    font-size: 16px;
+    font-family: '宋体';
+}
+
+.souSuo {
+    width: 570px;
+    margin: 20px 0px 0px 10px;
+}
+
+.souSuo>ul,
+.souSuo>ul>li {
+    float: left;
+    padding: 5px 17px 0px 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-size: 13px;
+    border: 0px solid #000;
+}
+
+.souSuo ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #666;
+}
+
+.souSuo ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.gouWuChe {
+    margin: 20px 0px 0px 32px;
+}
+
+.gouWuChe>img,
+.gouWuChe>div {
+    margin: 12px 0px 0px 0px;
+    padding: 0px;
+}
+
+.gouWuChe>div {
+    width: 114px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #000;
+    /* cursor: pointer; */
+}
+
+img[src="images/gouwuche3.png"] {
+    display: none;
+}
+
+.bottom {
+    border: 1px solid rgb(255, 40, 50);
+    border-width: 0px 0px 2px 2px;
+    padding: 0px;
+    margin: 0px;
+    height: 520px;
+}
+
+.fenGeXian {
+    display: block;
+    height: 1px;
+    background-color: rgb(255, 40, 50);
+    border: 1px solid rgb(255, 40, 50);
+    margin: 0px 0px 0px -55px;
+    position: relative;
+    top: 43px;
+}
+
+.bottom>.fenLeiFu {
+    border: 0px solid #000;
+    padding: 0px;
+    margin: -3px 0px 0px 0px;
+    width: 200px;
+    float: left;
+}
+
+.fenLeiCss1 {
+    list-style-type: none;
+    float: left;
+    cursor: pointer;
+}
+
+.fenLeiCss2 {
+    color: #666;
+    list-style-type: none;
+    width: 198px;
+    height: 31px;
+    font-family: "微软雅黑";
+    border: 0px solid #000;
+    font-size: 14px;
+    text-indent: 20px;
+    line-height: 29px;
+    display: block;
+    float: left;
+    transition: background-color 0.6s;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+
+.bottom>.fenLeiFu>li>ul {
+    /* margin:-31px 0px 0px 198px; */
+    margin-left: 198px;
+    display: none;
+    /* border:3px solid #000; */
+    /* height: 474px; */
+}
+
+.bottom>.fenLeiFu>li>ul>li {
+    border: 2px solid rgb(255, 40, 50);
+}
+
+.bottom>.fenLeiFu>li>ul,
+.bottom>.fenLeiFu>li>ul>li {
+    position: relative;
+    z-index: 20;
+    background-color: #fff;
+    padding: 0px;
+    width: 950px;
+    font-size: 13px;
+    text-indent: 0px;
+    color: #999;
+    cursor: default;
+}
+
+.bottom>.fenLeiFu>li>ul>li>span {
+    display: block;
+    width: 100px;
+    border: 1px solid #fff;
+    color: rgb(255, 40, 50);
+    float: left;
+    font-weight: 600;
+    text-indent: 15px;
+}
+
+.bottom>.fenLeiFu>li>ul>li a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    margin: 0px 10px 0px 7px;
+}
+
+.bottom>.fenLeiFu>li>ul>li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 102, 0);
+}
+
+.lunBo {
+    float: left;
+    border: 0px solid #000;
+    height: 340px;
+    overflow: hidden;
+}
+
+.lunBo>ul {
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
+    float: left;
+    border: 0px solid #000;
+    width: 796px;
+    height: 296px;
+    /* -webkit-perspective:4300px;  */
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% -400px;
+    transition: transform 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50% -400px;
+    -webkit-transition: -webkit-transform 0.6s;
+    -moz-transform-style: preserve-3d;
+    -moz-transform-origin: 50% 50% -400px;
+    -moz-transition: -moz-transform 0.6s;
+    -o-transform-style: preserve-3d;
+    -o-transform-origin: 50% 50% -400px;
+    -o-transition: -o-transform 0.6s;
+    /* -webkit-transition:transform 0.6s;
+    -moz-transition:transform 0.6s;
+    -o-transition:transform 0.6s; */
+}
+
+.lunBo>ul>li {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
+    border: 0px solid #000;
+    width: 796px;
+    height: 296px;
+    opacity: 1;
+}
+
+
+/* @-webkit-keyframes spin {
+    0% { transform:perspective(5100px) rotateY(0deg); }
+    25% { transform:perspective(6100px)  rotateY(72deg); }
+    50% { transform:perspective(7100px)  rotateY(144deg); }
+    75% { transform:perspective(7100px)  rotateY(216deg); }
+    100% { transform:perspective(0px)  rotateY(90deg); }
+} */
+
+.lunBo .jianTou {
+    border: 0px solid #000;
+    padding: 0px;
+    margin: 154px 0px 0px -796px;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+}
+
+.lunBo .jianTou>.zuoJianTou,
+.lunBo .jianTou>.youJianTou {
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #000;
+    width: 34px;
+    height: 70px;
+    float: left;
+    position: relative;
+    z-index: 10;
+    line-height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.3;
+    text-align: center;
+    overflow: hidden;
+}
+
+.lunBo .jianTou>.zuoJianTou {
+    margin: 0px 728px 0px 0px;
+    left: -35px;
+}
+
+.lunBo .jianTou>.youJianTou {
+    text-indent: 10px;
+    left: 35px;
+}
+
+.xuHao {
+    border: 0px solid #000;
+    float: left;
+    padding: 0px;
+    margin: 295px 0px 0px -500px;
+    position: relative;
+    z-index: 10;
+    font-family: '微软雅黑';
+    overflow: hidden;
+}
+
+.xuHao>div {
+    float: left;
+    border: 0px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 26px;
+    background-color: rgb(95, 87, 80);
+    color: #fff;
+    margin: 0px 10px;
+    transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+}
+
+.xiangGuanFenLei {
+    border: 0px solid #000;
+    float: left;
+    margin: -380px 0px 0px 0px;
+}
+
+.xiangGuanFenLei>ul,
+.xiangGuanFenLei>ul>li {
+    float: left;
+    border: 0px solid #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.xiangGuanFenLei>ul {
+    /*  margin: -336px 0px 0px 0px; */
+    padding: 0px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.xiangGuanFenLei>ul>li {
+    margin: 0px 0px 0px 1px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(50, 50, 50);
+    font-family: "微软雅黑";
+    line-height: 20px;
+    padding: 10px 18px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.xiangGuanFenLei .fuGai {
+    display: block;
+    border: 0px solid #000;
+    width: 0px;
+    height: 40px;
+    position: relative;
+    top: 43px;
+}
+
+.lunBoZiLieBiao {
+    width: 796px;
+    height: 176px;
+    overflow: hidden;
+}
+
+.lunBoZiLieBiao,
+.lunBoZiLieBiao>div {
+    border: 0px solid #000;
+    float: left;
+}
+
+.lunBoZiLieBiao>div {
+    border: 0px solid #000;
+    height: 160px;
+    padding: 9px 0px 9px 42px;
+}
+
+.cuXiao {
+    margin: -299px 0px 0px 10px;
+}
+
+.cuXiao,
+.cuXiao>div {
+    border: 0px solid #000;
+    float: left;
+    width: 195px;
+}
+
+.cuXiao>div {
+    margin: 2px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.cuXiao>div>img {
+    width: 195px;
+}
+
+.cuXiao1 {
+    height: 267px;
+}
+
+.cuXiao2 {
+    height: 197px;
+}
+
+.cuXiao .imgText {
+    border: 0px solid red;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    color: #fff;
+    z-index: 30;
+    background-color: #2e2e2e;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.cuXiao .imgText>.wk {
+    border: 0px solid #fff;
+    width: 150px;
+    height: 170px;
+    text-align: center;
+    font-weight: 100;
+    font-family: "微软雅黑";
+    line-height: 44px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 24px;
+}
+
+.cuXiao .imgText>.wk>.wk2 {
+    border: 0px solid #fff;
+    position: relative;
+    height: 135px;
+}
+
+.leiXing,
+.leiXing .leiXingTitle,
+.leiXing ul,
+.leiXing ul li {
+    float: left;
+    list-style-type: none;
+    border: 0px solid #000;
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+    font-weight: bolder;
+    color: rgb(50, 50, 50);
+}
+
+.leiXing {
+    margin: 5px 0px 0px 0px;
+}
+
+.leiXing .leiXingTitle {
+    padding: 11px 0px 11px 0px;
+    width: 856px;
+    border: 2px solid #000;
+    border-width: 0px 0px 2px 0px;
+    font-size: 20px;
+    text-indent: 2px;
+}
+
+.leiXing .leiXingList li {
+    padding: 11px 29px;
+    border: 2px solid #666;
+    border-width: 1px 1px 0px 1px;
+    margin: 8px -2px 0px 0px;
+    font-size: 14px;
+}
+
+.leiXing .leiXingWk {
+    overflow: hidden;
+    width: 1200px;
+    height: 356px;
+    border: 0px solid #000;
+}
+
+.leiXing .leiXingImgs {
+    border: 0px solid #000;
+}
+
+.leiXingImgs .infoFirst,
+.leiXingImgs .info {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 10px;
+    border: 0px solid #000;
+    height: 344px;
+    background-color: #2e2e2e;
+    z-index: 100;
+    opacity: 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Consolas Italic", Sans-serif;
+    font-weight: 100;
+    text-indent: 0px;
+    line-height: 40px;
+    word-wrap: break-word;
+    transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    overflow: hidden;
+}
+
+.infoFirst>div {
+    width: 293px;
+    padding: 30px 0px 0px 30px;
+}
+
+.info>div {
+    width: 100px;
+    padding: 30px 0px 0px 25px;
+}
+
+.infoFirst>div,
+.info>div {
+    border: 0px solid #000;
+    /* height: 200px;*/
+    position: relative;
+    left: 0px;
+    transition: left 0.4s;
+    -webkit-transition: left 0.4s;
+    -moz-transition: left 0.4s;
+    -o-transition: left 0.4s;
+}
+
+.leiXingImgs .infoFirst {
+    width: 383px;
+}
+
+.leiXingImgs .info {
+    width: 191px;
+}
+
+.leiXing .leiXingImgs li {
+    border: 0px solid red;
+    height: 353px;
+    overflow: hidden;
+}
+
+.leiXing .leiXingImgs li .imgDisplone {
+    border: 1px solid rgb(222, 208, 197);
+    border-width: 0px 1px 0px 0px;
+    position: relative;
+    top: -340px;
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+    margin: 6px 5px 0px 0px;
+}
+
+.leiXing .leiXingImgs li img {
+    padding: 0px;
+    margin: 0px;
+    opacity: 1;
+    transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    -o-transition: -o-transform 0.4s;
+}
+
+.banQuan {
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+    border: 0px solid red;
+}
+
+.banQuan .xian1,
+.banQuan .xian2,
+.banQuan .xian3 {
+    width: 1366px;
+    border: 1px solid rgb(255, 40, 50);
+    border-width: 2px 0px 0px 0px;
+    margin: 0px 0px 10px -55px;
+}
+
+.banQuan .xian2,
+.banQuan .xian3 {
+    border: 1px solid rgb(222, 208, 197);
+    border-width: 1px 0px 0px 0px;
+}
+
+.banQuan>div {
+    text-indent: 187px;
+    border: 0px solid #000;
+}
+
+.banQuan .banQuan2 {
+    text-indent: 209px;
+    margin: 30px 0px 0px 0px;
+}
+
+.banQuan .banQuan3 {
+    text-indent: 221px;
+}
